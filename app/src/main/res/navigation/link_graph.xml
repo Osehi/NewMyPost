@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/displayPosts"
-        android:name="com.polish.newmypost.DisplayPosts"
+        android:name="com.polish.newmypost.displayposts.DisplayPosts"
         android:label="fragment_display_posts"
         tools:layout="@layout/fragment_display_posts" />
     <fragment

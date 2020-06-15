@@ -1,10 +1,11 @@
-package com.polish.newmypost
+package com.polish.newmypost.displayposts
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.polish.newmypost.R
 
 /**
  * A simple [Fragment] subclass.
