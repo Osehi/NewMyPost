@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/link_graph"
+    app:startDestination="@id/displayPosts">
+
+    <fragment
+        android:id="@+id/displayPosts"
+        android:name="com.polish.newmypost.DisplayPosts"
+        android:label="fragment_display_posts"
+        tools:layout="@layout/fragment_display_posts" />
+    <fragment
+        android:id="@+id/detailPosts"
+        android:name="com.polish.newmypost.DetailPosts"
+        android:label="fragment_detail_posts"
+        tools:layout="@layout/fragment_detail_posts" />
+</navigation>
