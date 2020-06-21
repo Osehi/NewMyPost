@@ -3,4 +3,13 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="click_to_view">View Post</string>
+    <string name="click_and_title">Click To View My Post</string>
+    <string name="button_view">View</string>
+    <string name="no_post">No post found</string>
+    <string name="display_title">Title</string>
+    <string name="display_body">Content</string>
+    <string name="list_news">List of News</string>
+    <string name="cd_status_image">Status image</string>
+    <string name="cd_error_status_image">Error Status</string>
 </resources>
