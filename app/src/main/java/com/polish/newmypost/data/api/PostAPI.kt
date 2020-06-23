@@ -14,7 +14,7 @@ import retrofit2.http.GET
 interface PostAPI {
 
     @GET(URLEndpoints.POST_ENDPOINT)
-   suspend fun viewPosts():Deferred<List<POST>>
+    fun viewPosts():Deferred<List<POST>>
 
     companion object {
 

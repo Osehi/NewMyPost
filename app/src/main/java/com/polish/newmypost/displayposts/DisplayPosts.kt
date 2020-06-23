@@ -1,6 +1,7 @@
 package com.polish.newmypost.displayposts
 
 import android.os.Bundle
+import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
@@ -50,12 +51,15 @@ class DisplayPosts : Fragment() {
         adapter = POSTAdapter(
             POSTAdapter.OnClickListener {
                 Toast.makeText(context, "$it", Toast.LENGTH_LONG).show()
+                Log.d("dislayPost", "inside adapter: $it")
             }
         )
         recyclerview.adapter = adapter
 
         viewModel.myListOfPOST.observe(viewLifecycleOwner, Observer {
             adapter.submitList(it)
+            Toast.makeText(context, "inside viewmodel:$it", Toast.LENGTH_LONG).show()
+            Log.d("DISPLAY_ACTIVITY","what is inside the viewmodel:$it")
         })
 
 
